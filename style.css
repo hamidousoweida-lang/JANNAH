@@ -1,0 +1,28 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#0f5d3b;
+color:#fff;
+text-align:center;
+}
+header img{
+width:80px;
+margin-top:20px;
+}
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+gap:15px;
+padding:20px;
+}
+button{
+padding:20px;
+border:none;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+background:#f1c40f;
+}
+footer{
+padding:15px;
+}
